@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $totablet) {
     .underhero-list-item:not(:last-child) {
         margin-bottom: 30px;
     }
@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and (min-width: $tablet) and (max-width: $desktop) {
+@media screen and (min-width: $tablet) and (max-width: $todesktop) {
     .underhero-list {
         justify-content: space-between;
 

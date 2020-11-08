@@ -85,14 +85,14 @@
     }
 }
 
-@media screen and (min-width: $mobile) and (max-width: $desktop) {
+@media screen and (min-width: $mobile) and (max-width: $todesktop) {
     .footer-three-input {
     width: 450px;
     }
 }
 
 
-@media screen and (max-width: $desktop) {
+@media screen and (max-width: $todesktop) {
     .footer-left,
     .footer-right {
         margin-bottom: 60px;

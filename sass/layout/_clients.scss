@@ -37,13 +37,13 @@
     }
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $totablet) {
     .clients-list-item:not(:nth-last-child(-n+2)) {
         margin-bottom: 30px;
     }
 }
 
-@media screen and (min-width: $tablet) and (max-width: $desktop) {
+@media screen and (min-width: $tablet) and (max-width: $todesktop) {
     .clients-list-item {
         width: 226px;
 
