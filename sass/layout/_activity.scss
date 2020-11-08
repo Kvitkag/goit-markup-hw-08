@@ -1,0 +1,38 @@
+.activity {
+    padding-bottom: 94px;
+
+    @media screen and (max-width: $desktop) {
+        display: none;
+    }
+
+    &-list {
+        display: flex;
+        
+        &-text {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.143;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $white-color;
+        }
+        
+        &-item {
+            position: relative;
+        }
+
+        &-item:not(:last-child) {
+            margin-right: 30px;
+        }
+        
+        &-overlay {
+            width: 100%;
+            background: rgba(47, 48, 58, 0.8);
+            padding-top: 27px;
+            padding-bottom: 27px;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}

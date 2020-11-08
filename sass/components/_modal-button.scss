@@ -1,0 +1,42 @@
+.modal-form-button {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.06em;
+    
+    padding: 10px 0;
+    min-width: 200px;
+    min-height: 50px;
+    background: $theme-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+
+    color: $white-color;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &-footer {
+        @extend .modal-form-button;
+        align-items: center;
+    }
+}
+
+.footer-three-svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: $desktop) {
+    .modal-form-button-footer {
+        margin-left: 12px;
+    }
+}
