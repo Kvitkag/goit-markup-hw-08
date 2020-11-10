@@ -4,7 +4,7 @@
     &-item {
         width: 100%;
         // width: 450px;
-        height: 404px;
+        height: auto;
         background: $white-color;
         border: 1px solid $projects-border;
         box-sizing: border-box;
@@ -26,7 +26,7 @@
     
     &-img {
         width: 100%;
-        height: 294px;
+        height: auto;
     }
     
     &-title {
@@ -57,7 +57,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    padding: 63px 24px;
+    padding: 14px 19px;
     background: rgba(33, 150, 243, 0.9);
     position: absolute;
 
@@ -71,8 +71,8 @@
 
     &-text {
         font-weight: 400;
-        font-size: 18px;
-        line-height: 1.556;
+        font-size: 16px;
+        line-height: 1.476;
         /* or 156% */
         letter-spacing: 0.03em;
         color: $white-color;
@@ -80,6 +80,17 @@
     
     .projects-list-item:hover & {
         transform: translateY(0%);
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .projects-overlay {
+        padding: 63px 24px;
+
+        &-text {
+            font-size: 18px;
+            line-height: 1.556;
+        }
     }
 }
 

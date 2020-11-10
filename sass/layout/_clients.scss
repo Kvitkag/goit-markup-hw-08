@@ -37,6 +37,12 @@
     }
 }
 
+@media screen and (max-width: 369px) {
+    .clients-list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: $totablet) {
     .clients-list-item:not(:nth-last-child(-n+2)) {
         margin-bottom: 30px;
