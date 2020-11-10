@@ -9,7 +9,7 @@
         justify-content: center;
     }
 
-    &-item-footer:not(:last-child) {
+    &-item:not(:last-child) {
         margin-right: 10px;
     }
 
@@ -49,3 +49,7 @@
 
     }
 }
+
+// .:not(:last-child) {
+//     margin-right: 10px;
+// }

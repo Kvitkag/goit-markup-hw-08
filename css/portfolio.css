@@ -147,7 +147,7 @@ img {
   justify-content: center;
 }
 
-.social-list-item-footer:not(:last-child) {
+.social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
